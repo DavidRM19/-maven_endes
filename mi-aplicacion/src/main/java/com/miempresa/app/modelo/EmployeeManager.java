@@ -1,15 +1,20 @@
-package Empleados;
+package com.miempresa.app.modelo;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.miempresa.app.controlador.Employee;
+
+/**
+ * @author David Romero Mateu
+ * @version 1.0
+ */
 
 public class EmployeeManager {
 	
 	List<Employee> employees = new ArrayList<Employee>();
 	
 	/**
-	 * @author David Romero Mateu
-	 * @version 1.0
 	 * @param name nombre del empleado
 	 * @param years años en la empresa del empleado
 	 */ 
